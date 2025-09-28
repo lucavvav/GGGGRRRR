@@ -11,7 +11,7 @@ int main()
     double highwayMileage = 28.9;
     double townDistance = gasTankGallons * townMileage;
     double highwayDistance = gasTankGallons * highwayMileage;
-    std::cout << "The car can travel " << townDistance << " miles in a town on one " << gasTankGallons << " gallon tank of gas";
-    std::cout << "The car can travel " << highwayDistance << " miles on a highway on one " << gasTankGallons << " gallon tank of gas";
+    std::cout << "The car can travel " << townDistance << " miles in a town on one " << gasTankGallons << " gallon tank of gas" << std::endl;
+    std::cout << "The car can travel " << highwayDistance << " miles on a highway on one " << gasTankGallons << " gallon tank of gas" << std::endl;
 
 }
