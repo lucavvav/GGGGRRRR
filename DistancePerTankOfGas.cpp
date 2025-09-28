@@ -1,4 +1,4 @@
-// add DistancePerTankOfGas.cpp : Program that calculates how far a car can drive from a full tank of gas in both a town and a highway
+// DistancePerTankOfGas.cpp : Program that calculates how far a car can drive from a full tank of gas in both a town and a highway
 //
 
 #include <iostream>
