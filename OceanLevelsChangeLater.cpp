@@ -18,8 +18,4 @@ int main()
     std::cout << "Ocean level after " << yearsPassed2 << " years is higher than the current level by " << oceanLevelRaised2 << " millimeters" << std::endl;
     std::cout << "Ocean level after " << yearsPassed3 << " years is higher than the current level by " << oceanLevelRaised3 << " millimeters" << std::endl;
 
-
-    
-
-
 }
