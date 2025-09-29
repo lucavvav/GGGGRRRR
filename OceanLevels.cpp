@@ -10,12 +10,12 @@ int main()
     int yearsPassed1 = 5;
     int yearsPassed2 = 7;
     int yearsPassed3 = 10;
-    double inchesPerYear = 1.5;
+    double millimetersPerYear = 1.5;
 
     //for each test case, calculate the amount of millimeters the ocean level raised by multiplying the amount of years passed by the amount of milimeters the ocean rises by each year
-    double oceanLevelRaised1 = yearsPassed1 * inchesPerYear;
-    double oceanLevelRaised2 = yearsPassed2 * inchesPerYear;
-    double oceanLevelRaised3 = yearsPassed3 * inchesPerYear;
+    double oceanLevelRaised1 = yearsPassed1 * millimetersPerYear;
+    double oceanLevelRaised2 = yearsPassed2 * millimetersPerYear;
+    double oceanLevelRaised3 = yearsPassed3 * millimetersPerYear;
 
     //output the results for each test case
     std::cout << "Ocean level after " << yearsPassed1 << " years is higher than the current level by " << oceanLevelRaised1 << " millimeters" << std::endl;

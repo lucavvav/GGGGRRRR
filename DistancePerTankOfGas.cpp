@@ -16,7 +16,6 @@ int main()
     double highwayDistance = gasTankGallons * highwayMileage;
 
     //output the results for how far the car can drive in both a town and a highway
-    std::cout << "The car can travel " << townDistance << " miles in a town on one " << gasTankGallons << " gallon tank of gas" << std::endl;
-    std::cout << "The car can travel " << highwayDistance << " miles on a highway on one " << gasTankGallons << " gallon tank of gas" << std::endl;
-
+    std::cout << "The car can travel " << townDistance << " miles in a town on one " << gasTankGallons << " gallon tank of gas." << std::endl;
+    std::cout << "The car can travel " << highwayDistance << " miles on a highway on one " << gasTankGallons << " gallon tank of gas." << std::endl;
 }
