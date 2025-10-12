@@ -25,5 +25,6 @@ int main()
     cout<< adjustedSugar << " cups of sugar" << std::endl;
     cout<< adjustedButter << " cups of butter" << std::endl;
     cout<< adjustedFlour << " cups of flour" << std::endl;
+    
     return 0;
 }
